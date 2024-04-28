@@ -1,0 +1,71 @@
+$measure: 60ch;
+
+/* More-intuitive box-sizing model. */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Remove default margins, set default measure */
+* {
+	margin: 0;
+	max-inline-size: $measure;
+}
+
+/* Create responsive font-size without media queries */
+:root {
+	font-size: calc(1rem + 0.5vw);
+}
+
+/* Make text more accessible */
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* These are typically parent elements, so apply the measure to only children elements */
+html,
+body,
+div,
+header,
+nav,
+main,
+footer {
+	max-inline-size: none;
+}
+
+/* Better media defaults and sizing */
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+/* Remove default font on forms, buttons */
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+/* Remove default formatting for links */
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/* Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
