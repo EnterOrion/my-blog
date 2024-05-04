@@ -56,7 +56,12 @@ select {
 /* Remove default formatting for links */
 a {
 	text-decoration: none;
-	color: black;
+	color: inherit;
+}
+
+/* Remove default list styling */
+li {
+	list-style: none;
 }
 
 /* Avoid text overflows */
