@@ -1,0 +1,18 @@
+nav {
+	background-color: #4d5e6d;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.5rem;
+}
+
+nav ul {
+	display: flex;
+	gap: 1.5rem;
+	cursor: pointer;
+	margin-right: 2rem;
+}
+
+nav div {
+	margin-left: 2rem;
+}
