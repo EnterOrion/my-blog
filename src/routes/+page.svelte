@@ -1,7 +1,9 @@
 <script>
-	import '../styles/reset.scss';
 	import '../styles/main.scss';
+	import Nav from '../components/+Nav.svelte';
+	import Hero from '../components/+Hero.svelte';
 </script>
 
-<h1>On Emptiness and Form</h1>
-<p>Some reflections on Buddhism, the mind, and literature</p>
+<Nav />
+<Hero />
+<p>Some reflections on Buddhism, the nature of the mind, and literature</p>
