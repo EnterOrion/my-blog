@@ -6,4 +6,12 @@
 
 <Nav />
 <Hero />
-<p>Some reflections on Buddhism, the nature of the mind, and literature</p>
+<main>
+	<div>
+		<h1>Welcome to <em>On Emptiness and Form</em></h1>
+		<p>
+			This website is home to reflections on Buddhism, experiments with the mind, and musings on
+			literature.
+		</p>
+	</div>
+</main>

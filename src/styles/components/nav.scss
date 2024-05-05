@@ -7,12 +7,21 @@ nav {
 }
 
 nav ul {
+	font-family: 'EB Garamond', serif;
 	display: flex;
 	gap: 1.5rem;
 	cursor: pointer;
 	margin-right: 2rem;
+	font-size: 0.9rem;
+	font-weight: 500;
 }
 
 nav div {
 	margin-left: 2rem;
+	font-family: 'Courgette', cursive;
+}
+
+.active {
+	text-decoration: underline;
+	text-underline-offset: 7px;
 }
