@@ -1,0 +1,26 @@
+.about .frame {
+	aspect-ratio: 7 / 9;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.about {
+	.about-content {
+		max-width: 60vw;
+		margin: 0 auto;
+		margin-top: 1rem;
+	}
+	.frame {
+		max-width: 15rem;
+		margin-right: auto;
+		margin-left: 0;
+	}
+}
+
+.photo-text {
+	margin-top: 0.5rem;
+	display: flex;
+	gap: 1rem;
+}

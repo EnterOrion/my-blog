@@ -3,7 +3,7 @@
 </script>
 
 <nav>
-	<div><a href="/">∅ On emptiness and form</a></div>
+	<div><a href="/">⟁ On emptiness and form</a></div>
 	<ul>
 		<li>
 			<a href="/" class:active={$page.url.pathname == '/'}><span class="special">Home</span></a>
