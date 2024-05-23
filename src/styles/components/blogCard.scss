@@ -25,4 +25,21 @@ $s5: calc($s4 * $ratio);
 	border-radius: 5px;
 	color: white;
 	margin-top: 0.5rem;
+	h2 {
+		font-size: 1.3rem;
+		max-inline-size: 1000ch;
+		font-weight: normal;
+		text-decoration: underline;
+		font-family: 'EB Garamond', serif;
+	}
+	p {
+		margin-top: 0.23rem;
+		max-inline-size: 1000ch;
+		line-height: 1.2;
+	}
+}
+
+.date {
+	width: 100%;
+	text-align: right;
 }

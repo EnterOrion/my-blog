@@ -4,8 +4,10 @@
 
 <div class="box">
 	<div class="frame"><img src="" alt="" /></div>
-	<h2>First blog post</h2>
+	<h2><a href="">First blog post</a></h2>
 	<p>
 		I woke up from a strange dream last night. I realized that everything was emptiness, even form.
+		I think that the Heart Sutra was right afterall.
 	</p>
+	<p class="date">5/19/24</p>
 </div>
