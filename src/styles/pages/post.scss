@@ -1,0 +1,25 @@
+article {
+	margin: 0 auto;
+	margin-top: 1rem;
+	width: clamp(23rem, 60%, 50rem);
+	p {
+		max-inline-size: none;
+	}
+}
+
+.post-header {
+	font-size: 1.7rem;
+}
+
+header {
+	line-height: 1.2;
+	font-family: 'EB Garamond', serif;
+	text-align: center;
+	div {
+		font-size: 0.9rem;
+	}
+}
+
+.post-body {
+	margin-top: 0.75rem;
+}
