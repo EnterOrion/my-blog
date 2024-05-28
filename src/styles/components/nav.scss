@@ -25,3 +25,16 @@ nav div {
 	text-decoration: underline;
 	text-underline-offset: 7px;
 }
+
+.site-icon {
+	height: 35px;
+	width: 35px;
+}
+
+.site-title {
+	a {
+		display: flex;
+		gap: 0.2rem;
+		align-items: center;
+	}
+}

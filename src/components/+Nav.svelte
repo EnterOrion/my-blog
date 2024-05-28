@@ -1,10 +1,15 @@
 <script>
 	import { base } from '$app/paths';
 	import { page } from '$app/stores';
+	import vajraIcon from '$lib/assets/vajra.png';
 </script>
 
 <nav>
-	<div><a href={`${base}/`}>⟁ On emptiness and form</a></div>
+	<div class="site-title">
+		<a href={`${base}/`}
+			><img class="site-icon" src={vajraIcon} alt="A vajra" /> On Emptiness and Form</a
+		>
+	</div>
 	<ul>
 		<li>
 			<a href={`${base}/`} class:active={$page.url.pathname == '/'}
