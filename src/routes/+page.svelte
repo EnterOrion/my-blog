@@ -1,7 +1,9 @@
 <script>
+	import { base } from '$app/paths';
 	import '../styles/main.scss';
 	import Nav from '../components/+Nav.svelte';
 	import Hero from '../components/+Hero.svelte';
+	export let data;
 </script>
 
 <Nav />
@@ -13,7 +15,11 @@
 			This website is home to reflections on Buddhism, experiments with the mind, and musings on
 			literature.
 		</p>
-		<p><a href="">Read the most recent post now ></a></p>
+		<p>
+			<a href={`${base}/blog/${data.posts[data.posts.length - 1].slug}`}
+				>Read the most recent post now ></a
+			>
+		</p>
 	</div>
 </main>
 
