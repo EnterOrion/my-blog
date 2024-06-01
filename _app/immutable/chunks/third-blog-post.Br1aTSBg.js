@@ -1,2 +1,2 @@
-import{s as r,n}from"./scheduler.CtbWrGNo.js";import{S as l,i,e as f,c,k as d,g as m,d as p}from"./index.CyDL9MQL.js";function u(a){let t,s=`asdf
+import{s as r,n}from"./scheduler.CtbWrGNo.js";import{S as l,i,e as f,c,k as d,g as m,d as p}from"./index.Q1tFLSaQ.js";function u(a){let t,s=`asdf
 The future is non-linear.`;return{c(){t=f("p"),t.textContent=s},l(e){t=c(e,"P",{"data-svelte-h":!0}),d(t)!=="svelte-eexr8f"&&(t.textContent=s)},m(e,o){m(e,t,o)},p:n,i:n,o:n,d(e){e&&p(t)}}}class h extends l{constructor(t){super(),i(this,t,null,u,r,{})}}export{h as default};
