@@ -23,3 +23,13 @@ header {
 .post-body {
 	margin-top: 0.75rem;
 }
+
+.back-button {
+	border: none;
+	background: none;
+	font-size: 2rem;
+}
+
+.back-button:hover {
+	cursor: pointer;
+}

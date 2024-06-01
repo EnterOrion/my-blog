@@ -16,14 +16,13 @@ $s5: calc($s4 * $ratio);
 	/* ↓ Padding set to the first point on the modular scale */
 	padding: $s-1;
 	/* ↓ Assumes you have a --border-thin var */
-	border: var(--border-thin) solid;
+	border: 2px solid black;
 	/* ↓ Always apply the transparent outline, for high contrast mode */
 	outline: var(--border-thin) transparent;
 	outline-offset: calc(var(--border-thin) * -1);
-	box-shadow: hsla(0, 0, 0, 0.2) 0 4px 2px -2px;
-	background-color: #69839b;
+
 	border-radius: 5px;
-	color: white;
+	color: black;
 	margin-top: 0.5rem;
 	h2 {
 		font-size: 1.3rem;
@@ -31,10 +30,11 @@ $s5: calc($s4 * $ratio);
 		font-weight: normal;
 		text-decoration: underline;
 		font-family: 'EB Garamond', serif;
+		letter-spacing: 0.5px;
 	}
 
 	h2:hover {
-		color: rgb(219, 219, 219);
+		color: rgb(99, 99, 99);
 	}
 
 	p {
@@ -44,7 +44,12 @@ $s5: calc($s4 * $ratio);
 	}
 }
 
+.box:not(:first-of-type) {
+	margin-top: 1rem;
+}
+
 .date {
 	width: 100%;
 	text-align: right;
+	color: rgb(3, 3, 96);
 }

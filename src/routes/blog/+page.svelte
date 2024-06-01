@@ -8,7 +8,7 @@
 <Nav />
 <main class="blog">
 	<div class="blog-content">
-		<h1>Recent Posts</h1>
+		<h1>Posts</h1>
 		{#each data.posts.reverse() as post}
 			<BlogCard
 				postTitle={post.title}
