@@ -8,7 +8,6 @@
 </script>
 
 <div class="box">
-	<div class="frame"><img src="" alt="" /></div>
 	<h2><a href={`${base}/blog/${postSlug}`}>{postTitle}</a></h2>
 	<p>
 		{postSummary}
