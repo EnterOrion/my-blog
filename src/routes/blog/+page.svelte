@@ -9,7 +9,11 @@
 <main class="blog">
 	<div class="blog-content">
 		<h1>Posts</h1>
-		{#each data.posts.reverse() as post}
+		{#each data.posts.sort(function (a, b) {
+			// Turn your strings into dates, and then subtract them
+			// to get a value that is either negative, positive, or zero.
+			return new Date(b.date) - new Date(a.date);
+		}) as post}
 			<BlogCard
 				postTitle={post.title}
 				postDate={post.date}

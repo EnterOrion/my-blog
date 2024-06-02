@@ -16,9 +16,7 @@
 			literature.
 		</p>
 		<p>
-			<a href={`${base}/blog/${data.posts[data.posts.length - 1].slug}`}
-				>Read the most recent post now ></a
-			>
+			<a href={`${base}/blog/${data.posts[0].slug}`}>Read the most recent post now ></a>
 		</p>
 	</div>
 </main>
