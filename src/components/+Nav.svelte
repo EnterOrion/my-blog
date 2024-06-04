@@ -12,11 +12,13 @@
 	</div>
 	<ul>
 		<li>
-			<a href={`${base}/`} class:active={$page.url.pathname == '/'}
+			<a href={`${base}/`} class:active={$page.url.pathname == `${base}/`}
 				><span class="special">Home</span></a
 			>
 		</li>
-		<li><a href={`${base}/blog`} class:active={$page.url.pathname == '/blog'}>Blog</a></li>
-		<li><a href={`${base}/about`} class:active={$page.url.pathname == '/about'}>About</a></li>
+		<li><a href={`${base}/blog`} class:active={$page.url.pathname == `${base}/blog`}>Blog</a></li>
+		<li>
+			<a href={`${base}/about`} class:active={$page.url.pathname == `${base}/about`}>About</a>
+		</li>
 	</ul>
 </nav>
