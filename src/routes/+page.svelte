@@ -4,6 +4,11 @@
 	import Nav from '../components/+Nav.svelte';
 	import Hero from '../components/+Hero.svelte';
 	export let data;
+	data.posts = data.posts.sort(function (a, b) {
+		// Turn your strings into dates, and then subtract them
+		// to get a value that is either negative, positive, or zero.
+		return new Date(b.date) - new Date(a.date);
+	});
 </script>
 
 <Nav />
