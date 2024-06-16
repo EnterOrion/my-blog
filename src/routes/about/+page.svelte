@@ -13,12 +13,15 @@
 				<img src={meImg} alt="Orion Wesson" />
 			</div>
 			<p>
-				My name is Orion and I've always been interested in the true nature of reality. I've been
-				studying Buddhism for the past several years and before I got into Buddhism, I had a
-				interest in enacting change in reality through the act of ritual. Now, I strive to put those
-				two interests together in the form of studying vajrayana. Furthermore, I believe that
-				literature can be a way of shaping the mind and transforming the way we see reality as well,
-				so I aim to explore the theories about books that I've read recently.
+				My name is Orion and I've always been curious about the nature of reality and mind. Before
+				studying and practicing Buddhism, I had an interest in Western Occultism, ritual, and
+				philosophy. I've always be drawn to the unknown, the esoteric, to what lies underneath the
+				veil of the mundane. I then came across Buddhism and I fell in love with its practical
+				approach to spirituality. It inspired me to work towards liberation within this very life.
+				When I discovered Vajrayana, I was happy to have a practice that combined both the
+				compassionate goal of eliminating suffering with the power and art of ritual. Similarly, I
+				believe that literature can similarly be a transformative way of shaping the mind and
+				opening it up to a broader horizon previously unknown.
 			</p>
 		</div>
 	</div>
